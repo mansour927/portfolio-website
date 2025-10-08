@@ -20,4 +20,21 @@ body {
     color: #007acc;
     text-decoration: none;
   }
-  
+  :root {
+  --main-bg: #f0f4ff;
+  --card-bg: #ffffff;
+  --accent: #0077cc;
+}
+
+body {
+  background-color: var(--main-bg);
+}
+
+header, section, footer {
+  background: var(--card-bg);
+}
+
+a {
+  color: var(--accent);
+}
+
